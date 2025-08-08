@@ -13,7 +13,7 @@
 
     <groupId>dev.ikm.tinkar</groupId>
     <artifactId>snomed-ct-data-bom</artifactId>
-    <version>1.17.0-SNAPSHOT</version>
+    <version>1.18.0-SNAPSHOT</version>
     <name>Snomed CT Data BOM</name>
     <description>Snomed CT Data Bill Of Materials</description>
     <packaging>pom</packaging>
@@ -85,8 +85,8 @@
         <!-- starter data -->
         <tinkar-starter-data.groupId>dev.ikm.data.tinkar</tinkar-starter-data.groupId>
         <tinkar-starter-data.artifactId>tinkar-starter-data</tinkar-starter-data.artifactId>
-        <tinkar-starter-data.classifier>unreasoned-sa</tinkar-starter-data.classifier>
-        <tinkar-starter-data.version>1.7.0</tinkar-starter-data.version>
+        <tinkar-starter-data.classifier>unreasoned-pb</tinkar-starter-data.classifier>
+        <tinkar-starter-data.version>20250807</tinkar-starter-data.version>
         <!-- reasoner options (ElkOwlReasoner, ElkSnomedReasoner, HybridReasoner)-->
         <reasoner-type>ElkSnomedReasoner</reasoner-type>
     </properties>
