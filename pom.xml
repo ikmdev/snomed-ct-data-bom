@@ -7,7 +7,7 @@
     <parent>
         <groupId>dev.ikm.build</groupId>
         <artifactId>java-parent</artifactId>
-        <version>1.63.0</version>
+        <version>1.64.0</version>
         <relativePath/>
     </parent>
 
@@ -49,9 +49,10 @@
     </scm>
 
     <properties>
-        <maven.compiler.source>23</maven.compiler.source>
-        <maven.compiler.target>23</maven.compiler.target>
-        <java.version>23</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <java.version>24</java.version>
+
         <lucene.version>9.12.1</lucene.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <tinkar-core.version>1.118.0</tinkar-core.version>
