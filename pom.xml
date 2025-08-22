@@ -7,8 +7,7 @@
     <parent>
         <groupId>dev.ikm.build</groupId>
         <artifactId>java-parent</artifactId>
-        <version>1.63.0</version>
-        <relativePath/>
+        <version>1.64.0</version>
     </parent>
 
     <groupId>dev.ikm.tinkar</groupId>
@@ -49,18 +48,19 @@
     </scm>
 
     <properties>
-        <maven.compiler.source>23</maven.compiler.source>
-        <maven.compiler.target>23</maven.compiler.target>
-        <java.version>23</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <java.version>24</java.version>
+
         <lucene.version>9.12.1</lucene.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <tinkar-core.version>1.121.0</tinkar-core.version>
+        <tinkar-core.version>1.122.0</tinkar-core.version>
         <tinkar-schema.version>1.42.0</tinkar-schema.version>
         <tinkar-transformer-api.version>1.7.0</tinkar-transformer-api.version>
         <log4j.version>3.0.0-alpha1</log4j.version>
         <slf4j.version>2.0.17</slf4j.version>
         <tinkar-composer.version>1.8.0</tinkar-composer.version>
-        <eclipse-collections-api.version>12.0.0.M3-r2</eclipse-collections-api.version>
+        <eclipse-collections-api.version>13.0.0</eclipse-collections-api.version>
         <maven-plugin-plugin.version>3.13.0</maven-plugin-plugin.version>
         <maven-plugin-annotations.version>3.15.0</maven-plugin-annotations.version>
         <maven-plugin-api.version>3.9.9</maven-plugin-api.version>
